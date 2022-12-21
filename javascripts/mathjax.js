@@ -5,7 +5,8 @@ window.MathJax = {
     processEscapes: true,
     processEnvironments: true,
     macros: {
-        argmin: "\\mathop{\\arg\\,\\max}\\limits"
+        argmin: "\\mathop{\\arg\\,\\min}\\limits",
+        argmax: "\\mathop{\\arg\\,\\max}\\limits"
     }
   }
 };
