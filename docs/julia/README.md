@@ -1,5 +1,9 @@
 # Julia
 
+## Outline
+
+- todo
+
 ## Resources
 
 - welcome - <https://www.youtube.com/watch?v=AXgLWumAOhk>
