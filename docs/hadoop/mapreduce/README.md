@@ -2,9 +2,9 @@
 
 ## Examples
 
-- [`WordCount`](./src/WordCount)
-- [`EvenOdd`](./src/EvenOdd)
-- [`MyCricket`](./src/MyCricket)
+- [`WordCount`](./examples/WordCount)
+- [`EvenOdd`](./examples/EvenOdd)
+- [`MyCricket`](./examples/MyCricket)
 
 ## Box Classes
 
@@ -178,7 +178,7 @@ hadoop fs -cat [output-folder]/[filename]
 
 ### Example
 
-- for [`WordCount`](./src/WordCount) program (clone this repo to try it, make sure you are in the `WordCount` directory while executing these commands)
+- for [`WordCount`](./examples/WordCount) program (clone this repo to try it, make sure you are in the `WordCount` directory while executing these commands)
 
 ```sh
 H_CLASSPATH=$(hadoop classpath)
@@ -189,9 +189,7 @@ hadoop jar wordcount.jar WordCountDriver poem.txt wordcountout
 hadoop fs -ls wordcountout
 ```
 
-> See complete explanation of a sample WordCount MapReduce program - [WordCount](./map-reduce-explain.md)
-
-# MapReduce (WordCount Example)
+## MapReduce (WordCount Example)
 
 Consider the `MapReduce` program for the `WordCount` program.
 
@@ -233,7 +231,7 @@ So here is summary of what will happen:-
 - output file
     - `part1000`
 
-## Driver Class
+### Driver Class
 
 ``` java
 public class WordCountDriver {
@@ -256,7 +254,7 @@ public class WordCountDriver {
 }
 ```
 
-## Mapper Class
+### Mapper Class
 
 Here are some thing we need to make a mapper class:
 
@@ -295,7 +293,7 @@ public void map(LongWritable key, Text value, Context context) {
 }
 ```
 
-## Reducer Class
+### Reducer Class
 
 Here are some things we need to consider while making reducer class
 
@@ -337,7 +335,7 @@ public void reduce(Text key, Iterable<IntWritable> values, Context context)
 
 An then the final context object is passed back to the `Job` object in the driver class which then produces the output file.
 
-## Execution
+### Execution
 
 ```sh
 H_CLASSPATH=$(hadoop classpath)
