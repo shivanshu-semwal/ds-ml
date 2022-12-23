@@ -32,7 +32,7 @@
 - [Hadoop vs Spark](hadoop-vs-spark.md)
 - [Ecosystem](ecosystem.md)
 - [Architecture](architecture.md)
-- [Spark API](api.md)
+- [Spark API](spark/api/README.md)
 
 ## Resources
 
