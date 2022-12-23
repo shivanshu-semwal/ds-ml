@@ -1719,7 +1719,7 @@
 <li>If the analyzer can resolve it, the result is passed through the Catalyst Optimizer, a collection of rules that attempt to optimize the logical plan by pushing down predicates or selections.</li>
 <li>Packages can extend the Catalyst to include their own rules for domain-specific optimizations.</li>
 </ul>
-<p><img alt="" src="api-logical.png" /></p>
+<p><img alt="" src="../files/api-logical.png" /></p>
 <h2 id="physical-planning">Physical Planning</h2>
 <ul>
 <li>After successfully creating an optimized logical plan, Spark then begins the physical planning process.</li>
@@ -1730,7 +1730,7 @@
 <blockquote>
 <p>NOTE: An example of the cost comparison might be choosing how to perform a given join by looking at the physical attributes of a given table (how big the table is or how big its partitions are).</p>
 </blockquote>
-<p><img alt="" src="physica-process.png" /></p>
+<p><img alt="" src="../files/physica-process.png" /></p>
 <h2 id="execution">Execution</h2>
 <ul>
 <li>Upon selecting a physical plan, Spark runs all of this code over RDDs, the lower-level programming interface of Spark.</li>

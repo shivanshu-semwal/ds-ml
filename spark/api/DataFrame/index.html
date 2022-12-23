@@ -1981,34 +1981,34 @@
 <li><code>dfs: org.apache.spark.sql.DataFrame = [age: string, id: string, name: string]</code></li>
 </ul>
 </li>
-<li><img alt="read.json" src="files/json.png" />  </li>
+<li><img alt="read.json" src="../files/json.png" />  </li>
 </ul>
 <h3 id="show-the-data">Show the Data</h3>
 <ul>
 <li>If you want to see the data in the DataFrame, then use the following command.</li>
 <li><code>scala&gt; dfs.show()</code></li>
 <li>Output - You can see the employee data in a tabular format.</li>
-<li><img alt="show" src="files/row.png" />  </li>
+<li><img alt="show" src="../files/row.png" />  </li>
 </ul>
 <h3 id="show-schema">Show Schema</h3>
 <ul>
 <li><code>scala&gt; dfs.printSchema()</code></li>
-<li><img alt="printSchema" src="files/schema.png" />  </li>
+<li><img alt="printSchema" src="../files/schema.png" />  </li>
 </ul>
 <h3 id="select-method"><code>select()</code> method</h3>
 <ul>
 <li><code>dfs.select("name").show()</code></li>
-<li><img alt="select" src="files/col.png" />  </li>
+<li><img alt="select" src="../files/col.png" />  </li>
 </ul>
 <h3 id="filter-method"><code>filter()</code> method</h3>
 <ul>
 <li><code>dfs.filter(dfs("age") &gt; 23).show()</code></li>
-<li><img alt="filter" src="files/age.png" />  </li>
+<li><img alt="filter" src="../files/age.png" />  </li>
 </ul>
 <h3 id="groupby-method"><code>groupby()</code> method</h3>
 <ul>
 <li><code>dfs.groupBy("age").count().show()</code></li>
-<li><img alt="gorupby" src="files/age2.png" />  </li>
+<li><img alt="gorupby" src="../files/age2.png" />  </li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="n">spark</span><span class="o">-</span><span class="n">shell</span><span class="w"> </span><span class="c1">// will create a sc variable itself</span>
 <span class="kd">val</span><span class="w"> </span><span class="n">sqlcontext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">org</span><span class="p">.</span><span class="n">apache</span><span class="p">.</span><span class="n">spark</span><span class="p">.</span><span class="n">sql</span><span class="p">.</span><span class="nc">SQLContext</span><span class="p">(</span><span class="n">sc</span><span class="p">)</span><span class="w"></span>
