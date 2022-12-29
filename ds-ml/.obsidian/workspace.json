@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "05757f6d76a776cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "62f34de3b2334d9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c0612c00434628a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spark/uses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b1b768e994c8fcf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "74933b3cfeab4ef5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc7e06713e7ef429",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f41808bf9720e245",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "09bcaf17eac9a3fb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "dfd193e3c558b2ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb14ef651e2e8cdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8665fd46f0772dd5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "spark/uses.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ad5fb1f8faa82219",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "spark/uses.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8a0382b84b299748",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ffe5169a1aceec53",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "spark/uses.md"
+              }
+            }
+          },
+          {
+            "id": "8772ae5cf99f51f3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "8c0612c00434628a",
+  "lastOpenFiles": [
+    "spark/sql-spark.md",
+    "spark/README.md",
+    "spark/hadoop-vs-spark.md",
+    "spark/ecosystem.md",
+    "spark/architecture.md",
+    "files/files/architecture.png.md",
+    "spark/api/DataFrame.md",
+    "spark/questions.md",
+    "spark/uses.md",
+    "spark/api/Data Types.md"
+  ]
+}

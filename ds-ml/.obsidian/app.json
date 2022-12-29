@@ -1,0 +1,8 @@
+{
+  "attachmentFolderPath": "./files",
+  "readableLineLength": false,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true
+}
