@@ -18,7 +18,7 @@ Overview:
 - Packages can extend the Catalyst to include their own rules for domain-specific optimizations.
 
 
-![](api-logical.png)
+![](files/api-logical.png)
 
 ## Physical Planning
 
@@ -29,7 +29,7 @@ Overview:
 
 > NOTE: An example of the cost comparison might be choosing how to perform a given join by looking at the physical attributes of a given table (how big the table is or how big its partitions are).
 
-![](physica-process.png)
+![](files/physica-process.png)
 
 ## Execution
 

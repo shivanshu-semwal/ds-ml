@@ -11,6 +11,7 @@ tools and technologies.
 
 ## Resources
 
-- [Microsoft](https://learn.microsoft.com/)
+- <https://learn.microsoft.com/>
 - [Amazon]
 - [Coursera]
+- <https://developers.google.com/machine-learning>
