@@ -1,4 +1,5 @@
 site_name: DS and ML
+docs_dir: ds-ml
 theme:
   name: material
   palette:
